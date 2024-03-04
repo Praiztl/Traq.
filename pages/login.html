@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traq.</title>
+    <link rel="stylesheet" href="../assets/scss/styles.css" />
+    <link rel="stylesheet" href="../assets/scss/login.css">
+    <link href="../assets/img/favicon.png" rel="icon" />
+  </head>
+  <body>
+    <button type="button" class="darkmode darkmode__button-toggle"></button>
+
+    
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+
+    <form id="loginForm">
+      <h3>Please login</h3>
+
+      <label for="email">Email</label>
+      <input type="text" placeholder="e.g you@gmail.com" id="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="*********" id="password" required />
+
+      <a href="#" class="link">Forgot Password?</a>
+
+      <button class="log">Log In</button>
+
+      <div class="sign">
+        <p>
+          Don't have an account?
+          <a href="./signup.html" class="link">Sign up</a>
+        </p>
+      </div>
+    </form>
+
+    <script src="../features/darkLight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../features/login.js"></script>
+  </body>
+</html>
